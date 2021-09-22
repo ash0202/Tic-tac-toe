@@ -1,0 +1,72 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+h1{
+    color: antiquewhite;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    padding: 0px;
+    margin: 10px auto;
+    background-color: #272727;
+    border-radius: 10%;
+}
+table tr td{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 10%;
+    font-size: 30px;
+    text-align: center;
+}
+table tr td:hover{
+background-color: #4b504e;
+cursor: pointer;
+border-radius: 25px;
+}
+.btn{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    color: antiquewhite;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    left: 50.1%;
+    top: 75%;
+}
+.text{
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: 60px;
+}
+.shift{
+    position: absolute;
+    top:2%;
+    left: 42%;
+    transform: translate(1%,100%);
+}
+.text1{
+    text-align: center;
+   top:20%;
+   left: 50%;
+   transform: translate(-45%,200%);
+   position: absolute;
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: 30px;
+}
+.btn:hover{
+    color: #3fc80e;
+}
