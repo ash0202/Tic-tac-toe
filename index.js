@@ -12,15 +12,15 @@ function startGame()
     }
     document.winner = null;
     setMessage(document.turn + " gets to start.");
-    document.getElementById("s1").style.color = "#3FC80E ";
-    document.getElementById("s2").style.color = "#3FC80E ";
-    document.getElementById("s3").style.color = "#3FC80E ";
-    document.getElementById("s4").style.color = "#3FC80E ";
-    document.getElementById("s5").style.color = "#3FC80E ";
-    document.getElementById("s6").style.color = "#3FC80E ";
-    document.getElementById("s7").style.color = "#3FC80E ";
-    document.getElementById("s8").style.color = "#3FC80E ";
-    document.getElementById("s9").style.color = "#3FC80E ";
+    document.getElementById("s1").style.color = "#e2e2e2 ";
+    document.getElementById("s2").style.color = "#e2e2e2";
+    document.getElementById("s3").style.color = "#e2e2e2";
+    document.getElementById("s4").style.color = "#e2e2e2";
+    document.getElementById("s5").style.color = "#e2e2e2";
+    document.getElementById("s6").style.color = "#e2e2e2";
+    document.getElementById("s7").style.color = "#e2e2e2";
+    document.getElementById("s8").style.color = "#e2e2e2";
+    document.getElementById("s9").style.color = "#e2e2e2";
 }
 
 function setMessage(msg)
